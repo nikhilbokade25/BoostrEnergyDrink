@@ -1,50 +1,16 @@
 import './Hero.css';
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/all';
 import BerryCanImg from "../Assets/BerryCan.png";
+
+gsap.registerPlugin(ScrollTrigger);
 
 export default function Hero(){
 
     const textRef = useRef();
     const imgRef = useRef();
-
-    // useEffect(() => {
-    //   gsap.fromTo(
-    //     textRef.current,
-    //     { scale: 0 },
-    //     {
-    //       scale: 1,
-    //       duration: 3.2,
-    //       ease: "elastic.out(1, 0.4)"
-    //     }
-    //   );
-    // }, []);
-
-    // useEffect(() => {
-    //     gsap.fromTo(
-    //       textRef.current,
-    //       { scale: 0 },
-    //       {
-    //         scale: 1,
-    //         duration: 3.2,
-    //         ease: "elastic.out(1, 0.4)",
-    //         onComplete: () => {
-    //           gsap.fromTo(
-    //             imgRef.current,
-    //             { y: 100, opacity: 0, rotate: -30 },
-    //             {
-    //               y: 0,
-    //               opacity: 1,
-    //               rotate: -15,
-    //               duration: 0.7,
-    //               ease: "back.out(1.7)"
-    //             },
-    //           );
-    //         }
-    //       }
-    //     );
-    //   }, []);
-
+    const containerRef = useRef();
 
     useEffect(() => {
         const tl = gsap.timeline();
@@ -76,7 +42,7 @@ export default function Hero(){
       }, []);
 
     return(
-        <div className="hero_container">
+        <div className="hero_container" ref={containerRef}>
             <div className='hero_text'>
                 <h2 ref={textRef}>BOOSTR</h2>
                 <img ref={imgRef} src={BerryCanImg} alt="Berry Can" className="berry_can" />
