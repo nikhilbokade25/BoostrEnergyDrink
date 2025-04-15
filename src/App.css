@@ -2,7 +2,7 @@
 
 .App {
   text-align: center;
-  cursor: url('../src/Assets/flash.png'), auto;
+  /* cursor: url('../src/Assets/flash.png'), auto; */
 }
 
 .App-logo {

@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
 
-*{
-    cursor: url('../Assets/flash.png'), auto;
-}
+
 
 .hero_container {
     width: 100%;
