@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Hero from "../src/Components/Hero";
 import Products from './Components/Products';
+import About from './Components/About';
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Hero/>
       <Products />
+      <About/>
     </div>
   );
 }

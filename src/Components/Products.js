@@ -18,7 +18,7 @@ import StrawberryInfo from "../Assets/StrawberryInfo.png";
 const products = [
     { name: "Berry Blast", img: BerryCanImg, infoImg: BlueberryInfo },
     { name: "Grapes Glow", img: GrapesCan, infoImg: GrapeInfo },
-    { name: "Lemon Zing", img: LemonCan, infoImg: LemonInfo },
+    { name: "Pine Zing", img: LemonCan, infoImg: LemonInfo },
     { name: "Orange Pop", img: OrangeCan, infoImg: OrangeInfo },
     { name: "Raspberry Rush", img: RaspberryCan, infoImg: RaspberryInfo },
     { name: "Strawberry Spark", img: StrawberryCan, infoImg: StrawberryInfo },
