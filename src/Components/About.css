@@ -1,12 +1,11 @@
 .about_container {
     width: 100%;
     height: 120vh;
-    background-color: rgb(255, 225, 174);
+    background-color: #f3efe5;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-
 }
 
 .products_text {
@@ -58,7 +57,7 @@
 .about_content {
     width: 100%;
     height: 100vh;
-    background-color: lightblue;
+    background-color: #f3efe5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,20 +72,24 @@
 }
 
 .about_text {
+    color: #005570;
     flex: 1;
     opacity: 0;
     transform: translateX(-100px);
     transition: opacity 0.5s, transform 0.5s;
+    
 }
 
 .about_text h2 {
-    font-size: 2rem;
+    font-size: 50px;
     margin-bottom: 10px;
+    font-family: "Caveat Brush", cursive;
 }
 
 .about_text p {
-    font-size: 1.2rem;
+    font-size: 35px;
     margin-bottom: 8px;
+    font-family: "Caveat Brush", cursive;
 }
 
 .about_image {

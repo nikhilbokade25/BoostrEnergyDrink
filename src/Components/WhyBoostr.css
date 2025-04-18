@@ -1,0 +1,133 @@
+.boostr_wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.boostr_container {
+    width: 100%;
+    height: 100vh;
+    background-color: #f3efe5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.boostr_content {
+    width: 85%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px;
+}
+
+.boostr_image {
+    width: 50%;
+    height: 100%;
+    background-color: #cee493;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+
+}
+
+.boostr_image h2 {
+    font-size: 100px;
+    font-family: "Caveat Brush", cursive;
+    color: #005570;
+    text-align: center;
+}
+
+/* Right side: scrolling description panel */
+.boostr_description {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #cee493;
+    position: relative;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+/* The inner scrollable content that moves vertically */
+.boostr_inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+/* New division style */
+.boostr_division {
+    margin-bottom: 80px;
+    padding: 30px;
+    background-color: #ebfdb7;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    height: 70vh;
+    font-family: "Caveat Brush", cursive;
+    
+}
+
+.boostr_division:hover {
+    transform: scale(1.01);
+}
+
+.boostr_division p {
+    margin: 0 0 1rem;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #005570;
+}
+
+.boostr_heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.boostr_heading h1 {
+    font-size: 120px;
+    margin: 0;
+    color: #005570;
+    font-family: "Caveat Brush", cursive;
+}
+
+.boostr_heading img {
+    width: 100px;
+    height: auto;
+}
+
+.boostr_title {
+    font-size: 60px;
+    margin-bottom: 1rem;
+    color: #005570;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.boostr_division p{
+    text-align: left;
+    font-size: 25px;
+}
+
+.boostr_division p:nth-of-type(1) {
+    margin-top: 50px;
+  }
+
+
+
+

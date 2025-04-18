@@ -3,6 +3,7 @@ import './App.css';
 import Hero from "../src/Components/Hero";
 import Products from './Components/Products';
 import About from './Components/About';
+import WhyBoostr from './Components/WhyBoostr';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Hero/>
       <Products />
       <About/>
+      <WhyBoostr/>
     </div>
   );
 }

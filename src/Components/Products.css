@@ -1,7 +1,7 @@
 .products_container {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(255, 225, 174);
+    background-color: #f3efe5;
 }
 
 .products_main {
@@ -12,8 +12,8 @@
 
 .products_main h2 {
     font-family: "Caveat Brush", cursive;
-    font-size: 50px;
-    color: white;
+    font-size: 60px;
+    color: #005570;
 }
 
 .products_display {

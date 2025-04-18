@@ -9,13 +9,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #7a75bd;
+    background-color: #f3efe5;
     overflow: hidden;
 }
   
 .hero_text {
     text-align: center;
-    color: white;
+    color: #005570;
 }
 
 .hero_text h2{

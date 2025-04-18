@@ -41,10 +41,11 @@ export default function About() {
         gsap.to(".about_text", {
             opacity: 1,
             x: 0,
-            duration: 1,
+            duration: 0.5,
             scrollTrigger: {
                 trigger: ".about_content",
-                start: "top 70%",
+                start: "top 40%",
+                end: "bottom bottom",
                 toggleActions: "play none none none",
                 scrub: true
             },
@@ -53,10 +54,11 @@ export default function About() {
         gsap.to(".about_image", {
             opacity: 1,
             x: 0,
-            duration: 1,
+            duration: 0.5,
             scrollTrigger: {
                 trigger: ".about_content",
-                start: "top 70%",
+                start: "top 40%",
+                end: "bottom bottom",
                 toggleActions: "play none none none",
                 scrub: true
             },
