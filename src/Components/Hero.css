@@ -20,7 +20,7 @@
 
 .hero_text h2{
     font-family: "Caveat Brush", cursive;
-    font-size: 250px;
+    font-size: 210px;
     transform: rotate(-10deg);
 }
 
@@ -55,7 +55,7 @@
   /* Small screens (mobile landscape, small tablets) */
   @media (max-width: 768px) {
     .hero_text h2 {
-      font-size: 120px;
+      font-size: 75px;
     }
   
     .berry_can {
@@ -72,7 +72,7 @@
     }
 
     .hero_text h2 {
-      font-size: 100px;
+      font-size: 60px;
     }
   
     .berry_can {

@@ -44,7 +44,7 @@ export default function Hero(){
     return(
         <div className="hero_container" ref={containerRef}>
             <div className='hero_text'>
-                <h2 ref={textRef}>BOOSTR</h2>
+                <h2 ref={textRef}>CLEAN ENERGY. BOLD FLAVOURs.</h2>
                 <img ref={imgRef} src={BerryCanImg} alt="Berry Can" className="berry_can" />
             </div>
         </div>
