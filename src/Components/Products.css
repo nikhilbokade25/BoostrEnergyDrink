@@ -35,6 +35,10 @@
     transition: transform 0.2s ease;
 }
 
+.product_box:hover{
+    cursor: pointer;
+}
+
 .product_box:nth-child(1) {
     background-color: #7d7cb9;
 }
