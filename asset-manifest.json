@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/BoostrEnergyDrink/static/css/main.9208f32b.css",
+    "main.js": "/BoostrEnergyDrink/static/js/main.16441b45.js",
+    "static/js/453.713a792c.chunk.js": "/BoostrEnergyDrink/static/js/453.713a792c.chunk.js",
+    "static/media/LemonCan.png": "/BoostrEnergyDrink/static/media/LemonCan.98a75349b7e62cd404bc.png",
+    "static/media/StrawberryCan.png": "/BoostrEnergyDrink/static/media/StrawberryCan.2fc03e512abe6632f0ff.png",
+    "static/media/RaspberryCan.png": "/BoostrEnergyDrink/static/media/RaspberryCan.9fa353099ccb62db71bd.png",
+    "static/media/GrapesCan.png": "/BoostrEnergyDrink/static/media/GrapesCan.01cb423fa89f1335fcb2.png",
+    "static/media/BerryCan.png": "/BoostrEnergyDrink/static/media/BerryCan.114e593149ae37604291.png",
+    "static/media/OrangeCan.png": "/BoostrEnergyDrink/static/media/OrangeCan.e4761bedb74cecd9c961.png",
+    "static/media/berryIcon.png": "/BoostrEnergyDrink/static/media/berryIcon.2ee4c2c31185b7fb5034.png",
+    "static/media/RaspberryInfo.png": "/BoostrEnergyDrink/static/media/RaspberryInfo.698dda0dedc535589318.png",
+    "static/media/OrangeInfo.png": "/BoostrEnergyDrink/static/media/OrangeInfo.8d27b7815e60835f456a.png",
+    "static/media/BlueberryInfo.png": "/BoostrEnergyDrink/static/media/BlueberryInfo.3b807bd3dd188c85c3c0.png",
+    "static/media/GrapeInfo.png": "/BoostrEnergyDrink/static/media/GrapeInfo.32617e77f46da383c03b.png",
+    "static/media/StrawberryInfo.png": "/BoostrEnergyDrink/static/media/StrawberryInfo.addf2a2f4b81fb062e5f.png",
+    "static/media/LemonInfo.png": "/BoostrEnergyDrink/static/media/LemonInfo.319af1d5dfa4b760534a.png",
+    "static/media/pineappleIcon.png": "/BoostrEnergyDrink/static/media/pineappleIcon.f127e3852817657947d3.png",
+    "static/media/orangeIcon.png": "/BoostrEnergyDrink/static/media/orangeIcon.863014d27fcbc8006d65.png",
+    "static/media/strawberryIcon.png": "/BoostrEnergyDrink/static/media/strawberryIcon.dc68ba349149346d771d.png",
+    "static/media/grapeIcon.png": "/BoostrEnergyDrink/static/media/grapeIcon.9706ac13c5650c5d3d36.png",
+    "static/media/raspberryIcon.png": "/BoostrEnergyDrink/static/media/raspberryIcon.a2cf67b9be4f5615b2c8.png",
+    "static/media/organicIcon.png": "/BoostrEnergyDrink/static/media/organicIcon.596e639bd5253754de75.png",
+    "static/media/recycleCan.png": "/BoostrEnergyDrink/static/media/recycleCan.16e2170d7c5d3786e67b.png",
+    "static/media/logo.svg": "/BoostrEnergyDrink/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/BoostrEnergyDrink/index.html",
+    "main.9208f32b.css.map": "/BoostrEnergyDrink/static/css/main.9208f32b.css.map",
+    "main.16441b45.js.map": "/BoostrEnergyDrink/static/js/main.16441b45.js.map",
+    "453.713a792c.chunk.js.map": "/BoostrEnergyDrink/static/js/453.713a792c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9208f32b.css",
+    "static/js/main.16441b45.js"
+  ]
+}
